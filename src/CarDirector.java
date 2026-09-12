@@ -8,5 +8,12 @@ public class CarDirector {
         return builder.build();
     }
 
+    public Car makeSportCar(CarBuilder builder) {
+        builder.setSeats(2);
+        builder.setWheels("Sport wheels");
+        builder.setEngine("Sport Engine");
+        builder.setIsHasGPS(true);
 
+        return builder.build();
+    }
 }

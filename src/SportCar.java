@@ -1,6 +1,4 @@
-// Cars for everyday usage like Sedan
-
-public class DailyCar implements CarBuilder {
+public class SportCar implements CarBuilder {
     private Car car = new Car();
 
     @Override
