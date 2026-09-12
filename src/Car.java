@@ -5,6 +5,8 @@ public class Car {
     private String engine;
     private boolean hasGPS;
 
+    //Getters and setters
+
     public void setSeats(int seats) {
         this.seats = seats;
     }
@@ -26,7 +28,7 @@ public class Car {
     }
 
     public String getWheels() {
-        return wheels;
+        return wheels + "\n";
     }
 
     public String getEngine() {
