@@ -4,23 +4,23 @@ public class DailyCar implements CarBuilder {
     private Car car = new Car();
 
     @Override
-    public void setSeats(int seats) {
-        car.setSeats(seats);
+    public DailyCar setSeats(int seats) {
+        car.setSeats(seats);  return this;
     }
 
     @Override
-    public void setWheels(String wheels) {
-        car.setWheels(wheels);
+    public DailyCar setWheels(String wheels) {
+        car.setWheels(wheels); return this;
     }
 
     @Override
-    public void setEngine(String engine) {
-        car.setEngine(engine);
+    public DailyCar setEngine(String engine) {
+        car.setEngine(engine); return this;
     }
 
     @Override
-    public void setIsHasGPS(boolean hasGPS) {
-        car.setIsHasGPS(hasGPS);
+    public DailyCar setIsHasGPS(boolean hasGPS) {
+        car.setIsHasGPS(hasGPS); return this   ;
     }
 
     @Override

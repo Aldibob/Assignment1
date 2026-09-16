@@ -4,23 +4,23 @@ public class SportCar implements CarBuilder {
     private Car car = new Car();
 
     @Override
-    public void setSeats(int seats) {
-        car.setSeats(seats);
+    public SportCar setSeats(int seats) {
+        car.setSeats(seats); return this;
     }
 
     @Override
-    public void setWheels(String wheels) {
-        car.setWheels(wheels);
+    public SportCar setWheels(String wheels) {
+        car.setWheels(wheels); return this;
     }
 
     @Override
-    public void setEngine(String engine) {
-        car.setEngine(engine);
+    public SportCar setEngine(String engine) {
+        car.setEngine(engine); return this;
     }
 
     @Override
-    public void setIsHasGPS(boolean hasGPS) {
-        car.setIsHasGPS(hasGPS);
+    public SportCar setIsHasGPS(boolean hasGPS) {
+        car.setIsHasGPS(hasGPS); return this;
     }
 
     @Override

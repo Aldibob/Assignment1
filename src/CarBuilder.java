@@ -1,7 +1,9 @@
+// All concrete builders would implement this interface
+
 public interface CarBuilder {
-    void setSeats(int seats);
-    void setWheels(String wheels);
-    void setEngine(String engine);
-    void setIsHasGPS(boolean hasGPS);
+    CarBuilder setSeats(int seats);
+    CarBuilder setWheels(String wheels);
+    CarBuilder setEngine(String engine);
+    CarBuilder setIsHasGPS(boolean hasGPS);
     Car build();
 }
