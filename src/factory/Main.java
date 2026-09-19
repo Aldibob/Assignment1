@@ -8,6 +8,10 @@ public class Main {
         bmw5.startCar();
         bmwF450GS.startMotorCycle();
 
-
+        VehicleFactory hondaFactory = new HondaFactory();
+        Car honda_xr_v = hondaFactory.createCar();
+        Motorcycle xr_125_l = hondaFactory.createMotorcycle();
+        honda_xr_v.startCar();
+        xr_125_l.startMotorCycle();
     }
 }
